@@ -12,19 +12,14 @@ React ve Axios gibi JavaScript kütüphaneleri
 Backend (Flask API)
 
 Sanal Ortam Oluşturma:
-bash
-Copy code
 cd backend
 python3 -m venv env
 source env/bin/activate  # Mac/Linux
 env\Scripts\activate  # Windows
 Gerekli Kütüphanelerin Yüklenmesi:
-bash
-Copy code
 pip install flask pandas scikit-learn
+
 Uygulamayı Çalıştırma:
-bash
-Copy code
 python app.py
 Frontend (React)
 
