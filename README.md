@@ -8,7 +8,35 @@ Python 3.8 veya üstü
 Node.js ve npm
 Flask, Pandas, scikit-learn gibi Python kütüphaneleri
 React ve Axios gibi JavaScript kütüphaneleri
+# Kurulum
+Backend (Flask API)
 
+Sanal Ortam Oluşturma:
+bash
+Copy code
+cd backend
+python3 -m venv env
+source env/bin/activate  # Mac/Linux
+env\Scripts\activate  # Windows
+Gerekli Kütüphanelerin Yüklenmesi:
+bash
+Copy code
+pip install flask pandas scikit-learn
+Uygulamayı Çalıştırma:
+bash
+Copy code
+python app.py
+Frontend (React)
+
+React Projesi Oluşturma:
+bash
+Copy code
+cd frontend
+npx create-react-app movie-recommendation-frontend
+Axios Kurulumu:
+bash
+Copy code
+npm install axios
 
 # Kullanılan Kütüphaneler
 Flask: API oluşturmak için.
