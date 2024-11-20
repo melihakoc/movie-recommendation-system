@@ -5,7 +5,7 @@ Bu proje, içerik tabanlı filtreleme algoritması kullanarak kullanıcıya film
 ## Proje Yapısı
 
 - **Backend**: Flask ile API oluşturulacak. Film öneri algoritması burada çalışacak ve kullanıcıdan gelen talepler doğrultusunda öneri listesi döndürecek.
-- **Frontend**: React ile kullanıcı arayüzü geliştirilecek. Kullanıcıya öneri butonu ve film önerilerini gösteren bir arayüz sunulacak.
+- **Frontend**: Template alınacak. Kullanıcıya öneri butonu ve film önerilerini gösteren bir arayüz sunulacak.
 
 ## Gereksinimler
 
@@ -24,3 +24,7 @@ Bu proje, içerik tabanlı filtreleme algoritması kullanarak kullanıcıya film
    python3 -m venv env
    source env/bin/activate  # Mac/Linux
    env\Scripts\activate  # Windows
+
+## Dataset 
+   https://drive.google.com/drive/folders/1qAvQ0sCfontcI0Av93hr2_zhz_e0RptS
+   
